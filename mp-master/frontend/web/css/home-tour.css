@@ -1,0 +1,135 @@
+.home-tour p {
+  color: #717f86;
+}
+.home-tour h3 {
+  color:#666a73;
+}
+.home-tour img {
+  max-width:500px;
+}
+.home-tour .row {
+  margin-top:25px;
+  margin-bottom:50px;
+}
+.firstpanel h1 {
+  font-family: sans-serif;
+  font-weight:bold;
+  color:white;
+  font-size:40px;
+  margin:75px 0 30px 0;
+  border-bottom: 3px solid #fff ;
+}
+
+.home-tour img {
+  max-width:300px;
+  border-radius: 3px;
+}
+
+.row1-left,.row3-left,.row5-left,.row7-left {
+  float:right;
+}
+
+.row1-left,.row3-left,.row5-left,.row7-left,.row2-right,.row4-right,.row6-right {
+  padding:25px;
+  margin-right:75px;
+  border-radius: 5px;
+}
+
+/* text on right */
+.row1-right,.row3-right,.row5-right,.row7-right {
+  background-color: #fff;
+  padding:25px;
+  margin-top:30px;
+  margin-left:0px;
+  width:350px;
+  border-radius: 5px;
+  float:right;
+}
+
+.row5-right {
+  margin-top:0px !important;
+  padding-right:0px;
+  padding-top:5px;
+}
+
+/* text on left */
+.row2-left, .row4-left, .row6-left {
+  margin-top:30px;
+  padding:25px 0px 25px 50px;
+  margin-right: 75px;
+  float:right;
+  width:350px;
+}
+.row1-left {
+  background-color: #e15258;
+}
+.row2-right {
+  background-color: #3079AB;
+}
+.row3-left {
+  background-color: #5cb860;
+}
+.row4-right {
+  background-color: #e59a13;
+}
+.row5-left {
+  background-color: #838CC7;
+}
+.row6-right {
+  background-color: #95D26C;
+}
+.row7-left {
+  background-color: #fbaea8;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .firstpanel h1 {
+    color:black;
+    font-size:32px;
+    margin: 25px 0 0 0;
+    border-bottom: 3px solid #000 ;
+  }
+}
+
+@media only screen
+and (max-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .home-tour .row {
+    margin-bottom:25px !important;
+  }
+  .row1-left,.row3-left,.row5-left,.row7-left {
+    float:left;
+    margin:0;
+  }
+  .row1-right,.row3-right,.row5-right,.row7-right {
+    padding-top:0px !important;
+  }
+
+  .row2-left, .row4-left, .row6-left {
+    float:left;
+    padding-top:0px !important;
+  }
+  
+  /* text blocks */
+  .row1-right,.row3-right,.row5-right,.row7-right,.row2-left, .row4-left, .row6-left  {
+    margin:0px;
+    padding-left:15px;
+  }
+
+  .firstpanel h1 {
+    font-size:32px;
+    margin: 25px 0 0 0;
+    color:#666a73;
+  }
+}
+
+@media only screen
+and (min-width: 920px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .firstpanel {
+    margin-top:50px;
+  }
+}

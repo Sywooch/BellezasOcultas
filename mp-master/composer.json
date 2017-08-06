@@ -1,0 +1,65 @@
+{
+    "name": "newscloud/mp",
+    "description": "Meeting Planner using Yii2 advanced template",
+    "keywords": ["meeting planner","yii2", "framework", "advanced"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "http://support.meetingplanner.io",
+        "forum": "http://support.meetingplanner.io/support/home",
+        "source": "https://github.com/newscloud/mp"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/newscloud/yii2-language-switcher"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "2.0.10",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "openbuildings/swiftmailer-css-inliner":"*",
+        "2amigos/yii2-google-maps-library": "*",
+        "2amigos/yii2-google-places-library": "*",
+        "stichoza/google-translate-php": "^3.2",
+        "google/apiclient": "1.0.*@beta",
+        "2amigos/yii2-date-time-picker-widget": "*",
+        "yiisoft/yii2-jui": "*",
+        "cebe/yii2-gravatar": "*",
+        "kartik-v/yii2-widget-fileinput": "*",
+        "yiisoft/yii2-imagine": "*",
+        "yiisoft/yii2-authclient": "~2.0.0",
+        "mailgun/mailgun-php": "~2.0",
+        "guzzlehttp/guzzle":"6.2.0 as 4.2.3",
+        "php-http/guzzle6-adapter":"1.1.1",
+        "kartik-v/yii2-widget-typeahead": "^1.0",
+        "kartik-v/yii2-widget-switchinput": "^1.3",
+        "yiisoft/yii2-debug": "^2.0",
+        "filipajdacic/yii2-twilio": "dev-master",
+        "notamedia/yii2-sentry": "*",
+        "yiisoft/yii2-apidoc": "~2.0.0",
+        "codemix/yii2-localeurls": "^1.4",
+        "yii2mod/yii2-c3-chart": "*",
+        "kartik-v/yii2-social": "dev-master",
+        "kmergen/yii2-language-switcher": "dev-master",
+        "plivo/plivo-php": "^1.1"        
+            },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

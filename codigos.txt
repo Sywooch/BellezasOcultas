@@ -1,0 +1,15 @@
+http://localhost/yii/bellezas/index.php?r=gii/default/index
+
+
+cordova(de fongab) 
+dropDownList
+
+
+RELACION USUARIOS
+
+<?php echo $form->dropDownList($model,'ID', CHtml::listData(TiposUsuarios::model()->findAll(),'ID','TIPO'));?>
+
+RELACION UBICACIONES.
+
+<?php echo $form->dropDownList($model,'ID_LUGAR',CHtml::listData(Lugares::model()->findAll(),'ID_LUGAR','NOMBRE')); ?>
+
